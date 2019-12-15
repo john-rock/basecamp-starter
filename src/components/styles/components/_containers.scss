@@ -1,0 +1,41 @@
+.xlarge-container{
+    max-width: $xlarge;
+    width:100%;
+    margin:0 auto;
+}
+
+.large-container{
+    max-width: $large;
+    width:100%;
+    margin:0 auto;
+}
+  
+.medium-container{
+  max-width: $medium;
+  width:100%;
+  margin:0 auto;
+}
+
+.small-container{
+  max-width: $small;
+  width:100%;
+  margin:0 auto;
+}
+
+.xsmall-container{
+  max-width: $xsmall;
+  width:100%;
+  margin:0 auto;
+}
+
+.site-wrapper{
+  min-height: 100vh;
+}
+
+.wrapper{
+  padding:1rem;
+}
+
+section{
+    padding:1rem;
+}

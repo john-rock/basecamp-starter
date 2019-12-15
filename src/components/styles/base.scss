@@ -1,0 +1,38 @@
+
+$webfont: 'Open Sans', sans-serif;
+$webfont2: 'Montserrat Alternates', sans-serif;
+
+$primary-color: #444;
+$secondary-color: #111;
+$accent-color: #888;
+
+$text-primary-color: #000;
+$text-secondary-color: #fff;
+$font-light: 300;
+$font-normal: 400;
+$font-bold: 700;
+$font-heavy: 900;
+
+$xlarge: 1680px;
+$large: 1280px;
+$medium: 980px;
+$small: 740px;
+$xsmall: 480px;
+
+@import 'components/reset';
+@import 'components/containers';
+@import 'components/typography';
+@import 'components/header';
+@import 'components/footer';
+// Pages
+@import 'pages/index';
+
+
+body{
+  font-family: $webfont;
+  color:$text-primary-color;
+}
+
+h1{
+  font-family:$webfont2;
+}
