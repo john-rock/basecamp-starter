@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Basecamp`,
+    title: `Basecamp - Starter`,
     description: `A customized GatsbyJS starter.`,
     author: `John Rock`,
   },
@@ -19,8 +19,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Basecamp`,
+        short_name: `basecamp`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
@@ -34,7 +34,7 @@ module.exports = {
         google: {
           // Add fonts here.
           // https://github.com/typekit/webfontloader
-          families: ['Montserrat Alternates:300,400,900', 'Open Sans'] 
+          families: ['Montserrat Alternates:300,400,700,900', 'Open Sans:400,700'] 
         }
       }
     }
