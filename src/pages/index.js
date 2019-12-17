@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <section className="medium-container">
+    <section>
       <h1>Home Page</h1>
       <p>Welcome to Basecamp GatsbyJS Starter.</p>
       <p>Now go build something great.</p>

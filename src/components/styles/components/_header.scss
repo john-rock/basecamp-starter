@@ -1,6 +1,9 @@
 header{
     background:$primary-color;
     padding:1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .site-logo{
@@ -13,7 +16,7 @@ header{
     font-weight:$font-normal;
     color:#fff;
     text-decoration:none;
-    font-size:1.8rem;
+    font-size:1.4rem;
     font-family: $webfont2;
 }
 
