@@ -11,7 +11,7 @@ const Header = ({ data }) => (
     <div className="site-logo">
       
       <Link to="/">
-      <div style={{ maxWidth: '30px', marginRight: '5px' }}>
+      <div style={{ maxWidth: '30px', minWidth: '30px', marginRight: '5px' }}>
       <img src={logo} alt="Logo" />
       </div>
         <div>{"<Basecamp />"}</div>

@@ -4,6 +4,9 @@ import React from "react"
 const NavBar = () => (
   <div className="nav">
     <div className="nav-sub" role="menuitem">
+      <Link to={`/`}>Home</Link>
+    </div>
+    <div className="nav-sub" role="menuitem">
       <Link to={`/about-us/`}>About Us</Link>
     </div>
     <div className="nav-sub" role="menuitem">
